@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #aca9a9;
+}
+
+/* fixed aside nav / header */
+
+#sidenav {
+    height: 200vh;
+    width: 300px;
+    position: fixed;
+    background-color: #111;
+    overflow: hidden;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+/* Style the sidenav */
+#sidnav, a {
+    padding: 30px 10px 10px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #b3b0b0;
+    display: block;
+    border: none;
+    /*background: none;*/
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  
+}
+
+/* On mouse-over */
+#sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+
+/* minha foto */
+img {
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+
+
+
+/* redes sociais*/
+
+.bi-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px; 
+    margin-top: 10px;
+}
+
+.bi-facebook {
+    font-size: 30px;
+    color: #4270fd;
+    margin-top: 10px;
+}
+
+.bi-twitter {
+    font-size: 30px;
+    color: #1f52fb;
+    margin-top: 10px;
+}
+
+/*h1 p h2 paragrafos */
+
+h1, h2, h3, p {
+    color: #1d1b1b;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+h1, p {
+    margin-top: 240px;
+    margin-left: 390px;
+}
+
+h2 {
+    margin-top: 480px; 
+    margin-left: 390px;
+}
+
+h3 {
+    margin-top: 500px; 
+    margin-left: 390px;
+    
+}
+
+/* tecnologias */
+
+.html {
+    margin-top: 10px;
+    margin-left: 390px;     
+}
+
+.css {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sass {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.scss {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.git {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.bot {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.js {
+    margin-top: 10px;
+    margin-left: 20px;    
+}
+
+.react {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sql {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.ts {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* seção encontre-me */
+
+#Contato {
+    margin-top: 850px;
+    color: #000000;
+    margin-left: 390px;
+}
+
+.encontre {
+    margin-top: 8px;
+    color: #000000;
+}
+
+.nav-2 {
+    color: #000000;
+    margin-left: 230px;
+    background-color: #494141;
+}
+
+
+
+
+
+
+
+
